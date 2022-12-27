@@ -19,14 +19,33 @@ body {
     border-radius: 15px;
     padding-bottom: 70px;
 }
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
 .heading h1 {
     font-size: 30px;
     font-weight:650;
+}
+@media only screen and (max-width: 600px) {
+  .heading h1 {
+    font-size: 20px;
+  }
 }
 .heading img {
     width: 8%;
     border: 1px solid white;
     border-radius: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .heading img {
+   width: 9%;
+   border: 1px solid white;
+   border-radius: 50%;
+  }
 }
 #sg {
     border: 1px solid rgb(195, 193, 193);
@@ -34,6 +53,12 @@ body {
     padding: 10px;
     border-radius: 20px;
 }
+@media only screen and (max-width: 600px) {
+    #sg {
+        border: 1px solid rgb(195,193,193);
+        width: 60%;
+    }
+  }
 #sa {
     border: 1px solid rgb(195, 193, 193);
     width: 50%;
@@ -42,6 +67,13 @@ body {
     font-weight: bold;
     font-size: 17px;
 }
+@media only screen and (max-width: 600px) {
+    #sa {
+        border: 1px solid rgb(195,193,193);
+        width: 60%;
+      
+    }
+  }
 #apple {
     width: 9%;
     margin-bottom: -3%;
@@ -70,6 +102,13 @@ input {
     border-radius: 5px;
     font-size: 18px;
 }
+@media only screen and (max-width: 600px) {
+   .main input {
+        width: 55%;
+        padding: 10px;
+        font-size: 15px;
+   }
+  }
 #b1 {
     display: block;
     border: 2px solid black;
@@ -79,8 +118,12 @@ input {
     padding: 8px;
     border-radius: 20px;
     margin-top: 25px;
-
 }
+@media only screen and (max-width: 600px) {
+    #b1 {
+        width: 65%;
+    }
+  }
 #b2 {
     display: block;
     border: 1px solid rgb(192, 189, 189);
@@ -91,4 +134,16 @@ input {
     border-radius: 20px;
     margin-top: 25px;
     margin-bottom: 60px;
+}
+@media only screen and (max-width: 600px) {
+    #b2 {
+        width: 65%;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
